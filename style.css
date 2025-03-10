@@ -1,0 +1,206 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 7px;
+    margin-bottom: 7px;
+
+}
+nav div{
+    display: flex;
+}
+nav .cart a{
+    color: black;
+    font-size:22px ;
+
+}
+nav .cart a:hover{
+    color: purple;
+}
+nav a{
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: none;
+    color: purple;
+}
+
+ nav div{
+    font-size: 22px;
+
+ }
+
+nav input{
+    width: 200px;
+    height: 40px;
+    outline: none;
+}
+
+.sec-nav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    font-size: 20px;
+    margin-top: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    
+
+}
+.sec-nav p:hover{
+    color: purple;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 45px;
+    margin-top: 45px;
+}
+.main .text{
+   
+    background-color:rgb(215, 215, 239);  
+}
+
+.main .text h1{
+    font-size: 40px;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+.main .text .txt{
+    display: flex;
+    margin-top: 30px;
+   
+    justify-content: center;
+   
+
+}
+.main .text .txt h2{
+    margin-inline: 30px;
+    justify-content: center;
+    background-color: white;
+    font-size: 22px;
+    font-weight:400;
+    margin-top:22px ;
+    width: 100px;
+}
+.text button {
+    font-size: 20px ;
+    margin-top: 22px;
+    background-color: purple;
+    margin-left: 30px;
+    height: 40px;
+    width: 350px;
+  
+}
+
+.text button a{
+    color: white;
+    text-decoration: none;
+    justify-content: center;
+}
+
+.text button a:hover{
+    color: red;
+}
+
+
+.top-cat h1{
+    text-align: center;
+    margin-top:44px ;
+}
+
+
+.top-cat .fs{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(239, 173, 184);
+   margin-left: 270px;
+   width: 1000px;
+}
+
+
+.top-cat .fs-txet{
+    width: 600px;
+    
+}
+.top-cat .fs-txet h1{
+    font-size: 70px;
+    margin-top: 44px;
+}
+.seller h1{
+    text-align: center;
+    margin-top: 33px;
+    padding: 30px;
+    font-size: 44px;
+}
+
+.seller img{
+    width: 1000px;
+    margin-left: 270px;
+
+}
+
+h1{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.Card{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 33px;
+
+}
+.Crd .img{
+    border: 1px solid grey;
+}
+
+.Crd .img img{
+    width:82%;
+
+}
+
+
+.Footer{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 44px;
+   
+    padding: 55px;
+    background-color: rgb(205, 223, 223);
+
+}
+.Footer .icons{
+    display: flex;
+justify-content: center;
+justify-content: space-around;
+margin-top: 10px;
+font-size: 35px;
+
+}
+.Footer .list .fc{
+    color: blue;
+}
+.Footer .list .insta{
+    color: rgb(255, 106, 0);
+}
+.Footer .list .yt{
+    color: red;
+
+}
+
+.kunal {
+    width: 250px; /* Adjust based on the image width */
+    height: 400px; /* Adjust based on the image height */
+    object-fit: cover; /* Ensures the image fits well */
+}
